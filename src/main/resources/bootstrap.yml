@@ -1,0 +1,20 @@
+management:
+  cloudfoundry:
+    skip-ssl-validation: true
+  security:
+    enabled: false
+
+endpoints:
+  sensitive: false
+
+spring:
+  application:
+    name: registry-checker
+  cloud:
+    services:
+      registrationMethod: route
+      
+security:
+  basic:
+    enabled: false
+ 

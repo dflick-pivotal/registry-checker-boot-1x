@@ -1,0 +1,11 @@
+applications:
+- name: registry-checker
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  random-route: true
+  path: target/registry-checker-boot-1x-0.0.1-SNAPSHOT.jar
+  services:
+  - new-reg
+  env:
+    TRUST_CERTS: api.sys.singapore.cf-app.com
