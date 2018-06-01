@@ -40,7 +40,7 @@ Push the applications
 cf push
 ```
 
-== Trying It Out
+## Trying It Out
 
 Visit the application home page. The home page provides the response from Spring Boot Actuator "actuator/health" endpoint. Here you can see if the app successfully connected to the Service Registry.
 
