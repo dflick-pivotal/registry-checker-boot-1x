@@ -6,6 +6,6 @@ applications:
   random-route: true
   path: target/registry-checker-boot-1x-0.0.1-SNAPSHOT.jar
   services:
-  - new-reg
+  - service-registry
   env:
     TRUST_CERTS: api.sys.singapore.cf-app.com
